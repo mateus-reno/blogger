@@ -12,7 +12,7 @@ default: &default
 development:
   adapter: postgresql
   encoding: unicode
-  database: myapp_development
+  database: warm-dusk-47417_development
   pool: 5
   username: vwftijrjvwojar
   password: b0d7043d097e7be200047ca79b719e1e928b644c106186385fde612d9e6a89e5
@@ -22,7 +22,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: myapp_development_test
+  database: warm-dusk-47417_test
   pool: 5
   username: vwftijrjvwojar
   password: b0d7043d097e7be200047ca79b719e1e928b644c106186385fde612d9e6a89e5
@@ -30,7 +30,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: myapp_production
+  database: warm-dusk-47417_production
   pool: 5
   username: vwftijrjvwojar
   password: b0d7043d097e7be200047ca79b719e1e928b644c106186385fde612d9e6a89e5
